@@ -1,0 +1,40 @@
+import type { Tour } from "./tour.types";
+
+export const seedTours: Tour[] = [
+  {
+    id: "tour-1",
+    name: "Khám phá Vịnh Hạ Long",
+    destination: "Quảng Ninh",
+    price: 2590000,
+    duration: 3,
+    maxGroupSize: 24,
+    bookings: 18,
+    status: "active",
+    description: "Du thuyền, hang động và trải nghiệm ẩm thực trên vịnh.",
+    createdAt: "2026-10-20T08:00:00.000Z",
+  },
+  {
+    id: "tour-2",
+    name: "Săn mây Tà Xùa",
+    destination: "Sơn La",
+    price: 1890000,
+    duration: 2,
+    maxGroupSize: 18,
+    bookings: 12,
+    status: "active",
+    description: "Chinh phục sống lưng khủng long và ngắm bình minh.",
+    createdAt: "2026-10-24T08:00:00.000Z",
+  },
+  {
+    id: "tour-3",
+    name: "Đà Nẵng - Hội An",
+    destination: "Đà Nẵng",
+    price: 4290000,
+    duration: 4,
+    maxGroupSize: 30,
+    bookings: 27,
+    status: "hidden",
+    description: "Biển Mỹ Khê, Bà Nà Hills và phố cổ Hội An.",
+    createdAt: "2026-10-27T08:00:00.000Z",
+  },
+];
