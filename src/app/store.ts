@@ -22,7 +22,7 @@ export const store = configureStore({
     tours: {
       items: loadTours(),
       search: "",
-      statusFilter: "all",
+      statusFilter: "all" as const,
     },
   },
 });
